@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FCI Pro</string>
+    <string name="title_coin_list">Монеты</string>
+    <string name="title_coin_detail">Детализация монеты</string>
+    <string name="title_add_invest">Добавление инвестиции</string>
+    <string name="title_investments">Инвестиции</string>
+    <string name="title_invest_detail">Детализация инвестиции</string>
+
+
+    <string name="invest_detail_attachment_date">Дата вложения</string>
+    <string name="invest_detail_time_has_passed">Времени прошло</string>
+    <string name="invest_detail_investment_rate">Курс вложения</string>
+    <string name="invest_detail_current_courses">Актуальный курс</string>
+    <string name="invest_deail_investment_amount">Сумма инвестирования</string>
+    <string name="invest_detail_profit">Прибыль</string>
+
+    <string name="add_invest_date">Дата:</string>
+    <string name="add_invest_invest_name">Название инвестиции:</string>
+    <string name="add_invest_investment_amount">Сумма инвестиции:</string>
+    <string name="add_invest_btn_invest">Инвестировать</string>
+
+    <string name="coin_detail_market_cap">Рыночная капитализация:</string>
+    <string name="coin_deail_volume_24h">Объем за 24ч:</string>
+    <string name="coin_detail_market_cap_dominance">Доля на рынке:</string>
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FCI Pro</string>
+
+    <string name="title_coin_list">Coin List</string>
+    <string name="title_coin_detail">Coin detail</string>
+    <string name="title_investments">Investments</string>
+    <string name="title_add_invest">Adding investment</string>
+    <string name="title_invest_detail">Investment detail</string>
+
+
+    <string name="invest_detail_attachment_date">Attachment date</string>
+    <string name="invest_detail_time_has_passed">Time has passed</string>
+    <string name="invest_detail_investment_rate">Investment rate</string>
+    <string name="invest_detail_current_courses">Current courses</string>
+    <string name="invest_deail_investment_amount">Investment amount</string>
+    <string name="invest_detail_profit">Profit</string>
+
+    <string name="add_invest_date">Date:</string>
+    <string name="add_invest_invest_name">Investment name:</string>
+    <string name="add_invest_investment_amount">Investment amount:</string>
+    <string name="add_invest_btn_invest">Invest</string>
+
+    <string name="coin_detail_market_cap">Market cap:</string>
+    <string name="coin_deail_volume_24h">Volume 24h:</string>
+    <string name="coin_detail_market_cap_dominance">Market cap dominance:</string>
+</resources>

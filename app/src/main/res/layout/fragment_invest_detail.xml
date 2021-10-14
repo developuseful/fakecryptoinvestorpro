@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.investdetail.InvestDetailFragment">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/invest_detail_coin_img"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="8dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp" />
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/invest_detail_coin_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BTC"/>
+
+            <TextView
+                android:layout_below="@id/invest_detail_coin_symbol"
+                android:id="@+id/invest_detail_coin_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bitcoin"/>
+
+            <TextView
+                android:id="@+id/invest_detail_invest_name"
+                android:layout_alignParentRight="true"
+                android:text="Invest name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invest_detail_date_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/invest_detail_label_date_invest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/invest_detail_attachment_date"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/invest_detail_date_invest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29.09.21"
+                android:layout_below="@id/invest_detail_label_date_invest"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/invest_detail_label_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/invest_detail_time_has_passed"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/invest_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7д"
+                android:layout_below="@id/invest_detail_label_time"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/invest_detail_course_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/invest_detail_label_course_invest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/invest_detail_investment_rate"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/invest_detail_course_invest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- - -"
+                android:layout_below="@id/invest_detail_label_course_invest"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/invest_detail_label_current_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/invest_detail_current_courses"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/invest_detail_current_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- - -"
+                android:layout_below="@id/invest_detail_label_current_course"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invest_deail_investment_amount"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/invest_detail_amount_invest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/invest_detail_profit"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/invest_detail_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - -" />
+
+        <TextView
+            android:layout_marginTop="3dp"
+            android:id="@+id/invest_detail_procent_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- - -" />
+    </LinearLayout>
+
+</LinearLayout>
